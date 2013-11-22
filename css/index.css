@@ -1,0 +1,190 @@
+body{background:#F1EACE;font-family: 'Open Sans', sans-serif;}
+
+h1{font-size: 20px; font-weight: bold; margin: 7px 0;}
+h2{font-size: 18px; font-weight: bold; margin: 7px 0;}
+
+#wrapper{ width:1024px; margin:0 auto; }
+#wrapperheader{ width: 100%; background: #301F15; float: left; }
+#wrapperheader #header{ width: 100%;  margin: 0 auto }
+#wrapperheader #header .controles { height:110px; float: left; width: 100%; }
+
+#wrapperheader #header .controles #logo { width: 54%; float: left; height: 100%}
+#wrapperheader #header .controles #navicon, #wrapperheader #header .controles #phone{display: none}
+#wrapperheader #header .controles #logo figure{ float: left;  margin: 28px 0 0 28px;}
+#wrapperheader #header .controles #logo img{ height: 100%; width: 100%}
+#wrapperheader #header .controles .telefono{ width: 40%; height: 44px; float: right; color:#fff; font-size: 30px;padding-top: 5px; margin-top: 30px;  text-decoration: none; }
+#wrapperheader #header .controles .telefono span{font-size: 14px; float: left; width: 140px; margin-top: 4px; }
+#wrappermenu{width: 100%; float: left; background: #19100B}
+#wrapperheader #wrappermenu .menu{height: 108px; width: 100%; margin: 0 auto;   }
+#wrapperheader #wrappermenu .menu li{float: left;   }
+#wrapperheader #wrappermenu .menu li a{ float: left; color:#e7e1c8;   }
+#wrapperheader #wrappermenu .menu li a:hover,.activo{background:#975427;}
+#wrapperheader #wrappermenu .menu .titulo{display: none}
+
+#wrapperheader #header .vermenu{display: block!important;}
+
+
+#wrapperheader #wrappermenu .menu li a span{ float: left; height:18px; margin-top:20px;  }
+
+
+
+#wrapper #content{ width: 100%;  background: #F1EACE; display: block; padding-bottom: 30px; float: left}
+#wrapper #content h3{ margin: 90px 0; font-size: 22px; float: left}
+#wrapper #content #caja{  width: 354px;    float: left; text-align: center;}
+#wrapper #content #carousel{ width: 670px; height: 500px;   float: right; position: relative; z-index: 0; }
+#wrapper #content #carousel .cycle-slideshow, #wrapper #content #carousel .cycle-slideshow .slides, #wrapper #content #carousel .cycle-slideshow .slides img{ width: 100%; height: 100% ; float: left; position: relative; z-index: 1}
+#wrapper #content #carousel .cycle-slideshow .slides p{float: right; width: 100%;text-align: center; text-indent: 0;margin-top: -94px;color: #fff;text-shadow: 1px 2px 2px #666; font-size: 30px; position: relative; z-index: 102; }
+#wrapper #content #carousel .cycle-slideshow .slides p:last-child{margin-top: -60px; font-size:20px; }
+#wrapper #content #carousel #left{position: absolute; display:block; width:8%; height: 90px; background: url(../images/left.png) left center no-repeat; bottom: 30px; left: 2%; z-index: 4 } 
+#wrapper #content #carousel #right{position: absolute; display: block; width:8%; height: 90px; background: url(../images/right.png) right center no-repeat; bottom:30px; right:2%; z-index: 4}
+
+
+
+#wrapper #content #msi{ width: 100%; background: #BDB08B; float: left; padding-top: 38px; cursor: pointer;  margin-top: -1px; text-decoration: none}
+#wrapper #content #msi p{ float: left; font-size: 32px; font-weight: bold; color: #fff; width: 58%; padding-left: 15px; }
+#wrapper #content #msi img{float: right;} 
+#wrapper #content #msi span{ float: right; font-size: 14px; color: #fff; width: 100%; text-align: right; margin: 7px 0 }
+#wrapper #content #info{color: #1C130E; padding: 15px; float:left;}
+#wrapper #content #info p{ margin: 0 0 15px 0; line-height: 20px; }
+#wrapper #content #info p strong{font-weight:bold}
+#wrapper #content #info ul{margin-left: 20px;}
+#wrapper #content #info ul li{font-size: 14px; list-style-type: disc; line-height: 18px; }
+#wrapper #content #info ul li strong{font-weight:bold}
+#wrapper #content #info .mapa{margin: 8px auto;width: 422px;height: 466px;display: block;}
+#wrapperfooter { width: 100%;  background: #160C0A; float: left}
+#wrapperfooter #footer{ width: 100%; min-height: 122px; margin: 0 auto; color: #fff; text-align: center;}
+#wrapperfooter #footer p, #wrapperfooter #footer .redes{display: inline-block;}
+#wrapperfooter #footer .redes{width: 164px; height: 42px; margin: 40px 0 25px 0;}
+#wrapperfooter #footer p{margin: 20px 15px 0 0; width: 100%}
+
+
+#wrapperfooter #footer .redes a{float: left; height: 42px; background-image:url(../images/redessociales.png) ;}
+#wrapperfooter #footer .redes .facebook{width: 45px;}
+#wrapperfooter #footer .redes .google{width: 46px; background-position: -58px; margin: 0 5px 0 8px;}
+#wrapperfooter #footer .redes .twitter{width: 45px;background-position: 45px}
+
+#heliobox-background { position:absolute; left:0px; top:0px; width:100%; height:100%; z-index:9999999; background:#000; text-align:center; opacity:.5; display:none; }
+#heliobox-wrapper{ position:absolute; left:0px; top:0px; width:100%; height:100%; z-index:99999999; text-align:center; overflow:hidden; display:none; }
+#heliobox-wrapper #heliobox-content { width:600px; height:625px; margin:0px auto; display:inline-block; margin-top:50px; position:relative; background: transparent url(../images/heliobox-loading.gif) no-repeat center center; }
+#heliobox-wrapper #heliobox-content #heliobox-close { width:30px; height:30px; position:absolute; right:-15px; top:-15px; z-index:2; background: transparent url(../images/heliobox-cerrar.png) no-repeat center center; }
+#heliobox-wrapper #heliobox-content #heliobox-iframe { width:100%; height:100%; position:absolute; left:0px; top:0px; z-index:1; }
+#heliobox-wrapper #heliobox-content #heliobox-iframe iframe { margin:0px; padding:0px; border:0px; width:100%; height:100%; background:none; overflow:hidden; }
+
+
+
+
+@media screen and (max-width:600px){
+	#heliobox-wrapper{background: olive;}
+	#heliobox-content{width:92% !important;  }
+	#heliobox-iframe{width:100% !important;}
+	#heliobox-content #contenedormsi{background: peru !important}
+	
+	}
+
+
+/*Pantallas Iphone,Ipod,Nexus, Blackberry Playbook*/
+@media screen and (max-width:380px){
+
+	#wrapperheader #header .controles #logo figure{width: 225px !important; height: 31px !important;}
+	#wrapper #content #carousel .cycle-slideshow .slides p{ font-size: 16px; }
+	#wrapper #content #carousel .cycle-slideshow .slides p:last-child{ font-size: 14px; margin-top: -71px}
+}
+
+@media screen and (max-width:699px){
+	#wrapper{width: 100% !important;}
+
+	
+	#wrapper #content #caja{ width: 100%; background: url(../images/cafe.png) top center repeat-x #22140D }
+	#wrapper #content #caja .etWContainer{width: 100%; display: none; margin: 0 auto}
+	#reservar{display: inline-block !important;}
+	
+	.etWContainer .etWforms form .etWrow input{font-size: 16px !important;}
+	
+
+	#wrapper #content #carousel{ width: 100%; height: 230px; }
+	#wrapperheader #header{ height: 47px; position: relative;}
+	#wrapperheader #header .controles{height: 47px;}
+	#wrapperheader #header .controles #navicon{ display:block; width: 10%; height: 100%; background:  black; float: left; ; text-align: center;}
+	#wrapperheader #header .controles #navicon img{ width: 18px; height: 20px; display: inline-block; margin-top: 12px}
+	#wrapperheader #header .controles #phone{display: block; width: 10%; height: 100%; background:  black; float: right; text-align: center; text-decoration: none }
+	
+	#wrapperheader #header .controles #phone img {width: 10px; height: 22px; margin-top: 11px; display: inline-block; }
+	#wrapper #content #carousel .cycle-slideshow .slides p{text-align: center; text-indent: 0}
+	#wrapperheader #header .controles #logo{width: 80%; position: relative; }
+	#wrapperheader #header .controles #logo figure{  position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 60%; height: 70%; margin: auto; }
+	#wrapperheader #header .controles .telefono{display: none;}
+	#wrapperheader #wrappermenu .menu{width: 247px; height: 410px; background: black; display: none; position: absolute; z-index: 3}
+	#wrapperheader #wrappermenu .menu .titulo{ display: block; float: left; color: #fff; height: 40px; text-indent: 28px;  font-size: 38px;  width: 100%; margin: 15px 0  25px 0;  font-weight: 300}
+	#wrapperheader #wrappermenu .menu li {width: 100%}
+	#wrapperheader #wrappermenu .menu li a{width: 100%; height: 40px; }
+	#wrapperheader #wrappermenu .menu li a img{ height: 30px; float: left; margin: 5px 0 0 28px}
+	#wrapperheader #wrappermenu .menu li a span{ float: right; width: 165px; text-align: left; margin-top: 14px}
+	#wrapper #content #msi{text-align: center;}
+	#wrapper #content #msi img{display: inline-block; float: none; }
+	#wrapper #content #msi p{width: 100%; font-size: 20px;padding-left: 0 }
+	#wrapper #content #info .mapa{width:100%; height:80%}
+	#wrapperfooter #footer{height: 200px}
+	#wrapperfooter #footer p{margin-right: 0px !important }
+}
+
+/*Pantallas como Ipad/*/
+@media screen and (min-width:700px)  and ( max-width: 800px){
+	#wrapper{ width: 100% !important}
+	#wrapper #content #caja{width:46%;background: navy}
+	#wrapper #content #caja .etWContainer{width: 100%}
+	#wrapper #content #carousel{ width: 54%;  }
+	#wrapperheader #header .controles #logo figure{ margin-top: 35px;} 
+	#wrapperheader #header .controles .telefono span{width: 100%}
+	#wrapper #content #carousel .cycle-slideshow .slides p{font-size: 26px;}
+
+	/*Menu*/	
+
+	#wrapperheader #wrappermenu .menu{display: block !important;}
+	#wrapperheader #wrappermenu .menu li{ width:16.66666666666667%; height: 100% }
+	#wrapperheader #wrappermenu .menu li a{ width:100% ; height: 100%; text-align: center;}
+	#wrapperheader #wrappermenu .menu li a img{ display: inline-block; margin-top: 18px; }
+	#wrapperheader #wrappermenu .menu li a span{display: none}
+}
+
+/*Pantallas Ipad Landscape, Desktop*/
+@media screen and ( min-width: 840px ){
+	#wrapperheader #header{width: 1024px;}
+
+	#wrapper #content #carousel .cycle-slideshow .slides p{text-align:left;text-indent: 12%}
+
+
+	/*Menu*/
+	#wrapperheader #wrappermenu .menu{display: block !important; width: 1024px;}
+	#wrapperheader #wrappermenu .menu li{margin: 17px 0px 0 0px; height: 65px ;}
+	#wrapperheader #wrappermenu .menu li a{height:65px; width:179px;}
+	#wrapperheader #wrappermenu .menu li a img{float: left; height: 30px;margin: 15px 15px 0 15px;}
+	#wrapperheader #wrappermenu .menu li #habitaciones img{ width: 30px; }
+	#wrapperheader #wrappermenu .menu li #restaurantes img{width: 18px; }
+	#wrapperheader #wrappermenu .menu li #actividades img{width: 34px; }
+	#wrapperheader #wrappermenu .menu li #spa{width: 129px;}
+	#wrapperheader #wrappermenu .menu li #spa img{width: 35px; }
+	#wrapperheader #wrappermenu .menu li #reuniones img{width: 27px; }
+	#wrapperheader #wrappermenu .menu li #contacto img{width: 31px; }
+	#caja .etWContainer{display: inline-block !important;}
+
+
+	#wrapperfooter #footer{ max-width: 1024px; width: 100%}
+	#wrapperfooter #footer p {float:left; margin-top: 50px;width: 317px }
+	#wrapperfooter #footer p.last{ margin-left: 112px;width: 374px;}
+	#wrapperfooter #footer .redes{float: right;}
+}
+
+
+
+
+
+//footer
+
+
+
+
+9981098639
+
+cursoetsw
+etswmejonadola
+os
